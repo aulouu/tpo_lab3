@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class BacklinksPage extends BasePage {
-    // Локаторы
     private final By backlinksLink = By.xpath("//a[@class='nav-link' and contains(@href,'/backlinks/')]");
     private final By urlInput = By.cssSelector("input#url.form-control");
     private final By submitButton = By.cssSelector("button#check-submit.btn.mcb");

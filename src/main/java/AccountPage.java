@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class AccountPage extends BasePage {
-    // Локаторы
     private final By accountButton = By.cssSelector("a#btn-account.btn-warning");
     private final By myChecksLink = By.cssSelector("a.list-group-item.menu-links[href*='/account/check/']");
     private final By mainContent = By.id("main-col");
